@@ -3,24 +3,23 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div style={{ backgroundColor: '#d3f9d8', padding: '20px', textAlign: 'center', fontFamily: 'montserrat' }}>
+    <div style={{ backgroundColor: '#d3f9d8', padding: '10px', textAlign: 'center', fontFamily: 'montserrat' }}>
       <h1 style={{color:'black'}}>Bienvenue dans MediCare</h1>
       
       <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px' }}>
         <img 
           src="/Business merger-amico.png" 
           alt="Gauche" 
-          style={{ width: '45%', height: 'auto', borderRadius: '10px' }} 
+          style={{ width: '45%', height: 'auto', borderRadius: '10px' , marginTop:'-60px' }} 
         />
         <img 
           src="/Health professional team-bro.png" 
           alt="Droite" 
-          style={{ width: '45%', height: 'auto', borderRadius: '10px' }} 
+          style={{ width: '50%', height: 'auto', borderRadius: '10px', marginTop:'-110px' }} 
         />
       </div>
       
-      {/* Boutons */}
-      <div style={{ marginTop: '30px' }}>
+      <div style={{ marginTop: '-115px' }}>
         <Link to="/recruiter-signup">
           <button 
             style={{
