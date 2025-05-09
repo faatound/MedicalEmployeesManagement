@@ -40,7 +40,7 @@
   }
   
   .navbar-buttons .navbar-btn {
-    background-color: #46efba;
+    background-color: #6ba1ed;
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -50,7 +50,7 @@
   }
   
   .navbar-buttons .navbar-btn:hover {
-    background-color: #35a07e;
+    background-color: #98c7de;
   }
   
   .navbar-menu {
@@ -76,10 +76,10 @@
   }
   
   .navbar-link.active {
-    color: #6fe7b9;
+    color: #6fdde7;
   }
   
   .button{
-    color: #6fe7b9;
+    color: #78d5d3;
   }
  

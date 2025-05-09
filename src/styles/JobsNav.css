@@ -2,6 +2,7 @@
     display: flex;
     border-bottom: 1px solid #ddd;
     background-color: #fff;
+    margin-top: 60px;
   }
   
   .jobs-nav-btn {
@@ -20,8 +21,8 @@
   }
   
   .jobs-nav-btn.active {
-    border-bottom: 2px solid #46efba; /* vert clair */
-    color: #46efba;
+    border-bottom: 2px solid #75d0f1; /* vert clair */
+    color: #7fc2df;
     font-weight: bold;
   }
   

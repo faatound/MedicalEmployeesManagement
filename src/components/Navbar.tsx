@@ -1,22 +1,23 @@
 
 import '../styles/navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+   <nav className="navbar">
       <div className="navbar-container">
-        <a href="#" className="navbar-logo">
+        <Link to="/" className="navbar-logo">
           <img src="/téléchargement.png" alt="Logo" className="navbar-img" />
           <span className="navbar-title">MediCare</span>
-        </a>
+        </Link>
         <ul className="navbar-menu">
-          <li><a href="#" className="navbar-link active">Page d'accueil</a></li>
-          <li><a href="#" className="navbar-link">Nos hopitaux Partenaires</a></li>
-          <li><a href="#" className="navbar-link">Publier une offre d'emploi</a></li>
-          <li><a href="#" className="navbar-link">Contact</a></li>
+          <li><Link to="/" className="navbar-link active">Page d'accueil</Link></li>
+          <li><Link to="/hopitaux" className="navbar-link">Nos hôpitaux Partenaires</Link></li>
+          <li><Link to="/publier-offre" className="navbar-link">Publier une offre d'emploi</Link></li>
+          <li><Link to="/contact" className="navbar-link">Contact</Link></li>
         </ul>
-        <div className="">
-        <a href="#" className="button">Connexion</a>
+        <div>
+          <Link to="/login" className="button">Connexion</Link>
         </div>
       </div>
     </nav>

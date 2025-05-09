@@ -3,6 +3,9 @@ import Home from '../pages/Home';
 import RecruiterSignup from '../pages/RecruiterSignup';
 import EmployeeSignup from '../pages/EmployeeSignup';
 import Dashboard from '../pages/Dashboard';
+import Hopitaux from '../pages/Hopitaux';
+import PublierOffre from '../pages/PublierOffre';
+import Contact from '../pages/Contact';
 
 const AppRoutes = () => {
   return (
@@ -12,6 +15,9 @@ const AppRoutes = () => {
         <Route path="/recruiter-signup" element={<RecruiterSignup />} />
         <Route path="/employee-signup" element={<EmployeeSignup />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/hopitaux" element={<Hopitaux />} />
+        <Route path="/publier-offre" element={<PublierOffre />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
