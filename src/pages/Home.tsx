@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div style={{ backgroundColor: '#d3f9d8', padding: '10px', textAlign: 'center', fontFamily: 'montserrat' }}>
-      <h1 style={{color:'black'}}>Bienvenue dans MediCare</h1>
+    <div style={{ backgroundColor: '#d3f9d8', padding: '10px', textAlign: 'center', fontFamily: 'regular 400' }}>
+      <h1 style={{color:'#374151'}}>Bienvenue dans MediCare</h1>
       
       <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px' }}>
         <img 
