@@ -4,6 +4,11 @@
     background-color: #fff;
     margin-top: 60px;
   }
+.big-message {
+  text-align: center;
+  padding: 5px 20px;
+  margin-bottom: 20px; /* rapproche de JobsNav */
+}
   
   .jobs-nav-btn {
     flex: 1;
